@@ -236,7 +236,7 @@
 
   /* ============ PROJECTS ============ */
   .project{
-    display:grid; grid-template-columns:400px 1fr; gap:48px;
+    display:grid; grid-template-columns:490px 1fr; gap:48px;
     padding:40px 0; border-bottom:1px solid var(--line);
     align-items:center;
   }
@@ -248,18 +248,17 @@
     overflow:hidden;
   }
   .project .frame img{
-    width:100%;
-    aspect-ratio:4/5;
     object-fit:cover;
     border-radius:4px;
+    scale: 1;
     display:block;
   }
 
   .project .role{
-    font-family:var(--mono); font-size:16px; color:var(--brass); display:block; margin-bottom:8px;
+    font-family:var(--mono); font-size:22px; color:var(--brass); display:block; margin-bottom:8px;
   }
   .project h3{font-size:22px; margin-bottom:10px;}
-  .project p{color:var(--ink-soft); font-size:15.5px; max-width:60ch; margin:0;}
+  .project p{color:var(--ink-soft); font-size:18.5px; max-width:60ch; margin:0;}
   @media (max-width:900px){.project{grid-template-columns:320px 1fr;}}
   @media (max-width:760px){.project{grid-template-columns:1fr;}}
 
